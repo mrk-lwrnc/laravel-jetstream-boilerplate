@@ -1,28 +1,28 @@
 ## Installation
 
-Install dependencies:
+1. Install dependencies:
 
 ```
 composer install
 npm install
 ```
 
-Copy env.example and update .env file with your settings (DB_DATABASE, DB_USERNAME, DB_PASSWORD, etc.):
+2. Copy **env.example** and update **.env** with your settings (DB_DATABASE, DB_USERNAME, DB_PASSWORD, etc.):
 ```
 copy .env.example .env
 ```
 
-Generate laravel encryption key:
+3. Generate laravel encryption key:
 ```
 php artisan key:generate
 ```
 
-Migrate database:
+4. Migrate database:
 ```
 php artisan migrate
 ```
 
-Serve project:
+5. Serve project:
 ```
 php artisan serve
 ```
