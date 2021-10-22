@@ -30,3 +30,9 @@ Serve project:
 ```
 php artisan serve
 ```
+
+Run mix watch (development):
+
+```
+npm run watch
+```
